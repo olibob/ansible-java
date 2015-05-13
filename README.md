@@ -6,9 +6,9 @@ Installs Oracle java JDK on Centos 7
 Role Variables
 --------------
 
-- major: the major release number
-- minor: the minor release number
-- build: the build release number
+- java_major: the major release number
+- java_minor: the minor release number
+- java_build: the build release number
 
 Example:
 8u45b14 --> {{major}}u{{minor}}-b{{build}}
